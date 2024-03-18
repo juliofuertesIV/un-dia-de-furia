@@ -6,6 +6,7 @@ export default {
         extend: {
             fontFamily: {
                 antique: ['var(--font-antique)'],
+                body: ['var(--font-body)'],                
             }
         },
     },

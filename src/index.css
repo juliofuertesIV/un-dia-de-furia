@@ -8,6 +8,16 @@
         font-weight: 400;
         src: local('RomanAntique'), url(/fonts/RomanAntique.ttf);
     }
+    @font-face {
+      font-family: Karma;
+      font-weight: 300;
+      src: local('Karma'), url(/fonts/Karma-Light.ttf);
+    }
+    @font-face {
+      font-family: Karma;
+      font-weight: 400;
+      src: local('Karma'), url(/fonts/Karma-Regular.ttf);
+    }
 }
 
 :root {
@@ -20,6 +30,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   --font-antique: RomanAntique;
+  --font-body: Karma;
 }
 
 body {
