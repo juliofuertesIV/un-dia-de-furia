@@ -11,7 +11,8 @@ function App() {
             <Intro/>
             <div className="mx-auto w-fit font-antique text-lg px-4 max-w-3xl">
             {
-                poema.map((pagina, index) => <Pagina key={ `pagina-${index}` } pagina={ pagina } index={ index }/>)
+                poema.map((pagina, index) => 
+                    <Pagina key={ `pagina-${index}` } pagina={ pagina } index={ index }/>)
             }
             </div>
         </main>

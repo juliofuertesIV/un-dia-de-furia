@@ -1,9 +1,3 @@
-
-
-
-
-
-
 export const createIntersectionObserver = ({ action } : { action: (intersecting: boolean) => void }) => {
     
     const intersectionObserverOptions = {

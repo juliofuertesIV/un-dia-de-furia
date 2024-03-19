@@ -11,11 +11,9 @@ export default function Intro() {
                 <h4>No quiero a mi novia</h4>
                 <h4>Quiero ser peligroso</h4>
                 <h5>
-                    <i>
-                        (E<span className="uppercase text-lg">l</span>&nbsp;
-                        O<span className="uppercase text-lg">tro</span>&nbsp;
-                        Y<span className="uppercase text-lg">o</span>, 1995)
-                    </i>
+                    (E<span className="uppercase text-lg">l</span>&nbsp;
+                    O<span className="uppercase text-lg">tro</span>&nbsp;
+                    Y<span className="uppercase text-lg">o</span>, 1995)
                 </h5>
             </div>
         </section>
