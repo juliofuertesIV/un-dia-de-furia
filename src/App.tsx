@@ -6,15 +6,12 @@ import Intro from "./components/Intro"
 function App() {
 
     return (
-        <main className="flex-1 min-h-full bg-stone-200">
+        <main className="flex-1 min-h-screen min-w-full bg-stone-200 px-4">
             <Cover/>
             <Intro/>
-            <div className="mx-auto w-fit font-antique text-lg px-4 max-w-3xl">
-            {
-                poema.map((pagina, index) => 
+            {    poema.map((pagina, index) => 
                     <Pagina key={ `pagina-${index}` } pagina={ pagina } index={ index }/>)
             }
-            </div>
         </main>
     )
 }
