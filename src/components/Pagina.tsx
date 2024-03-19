@@ -3,8 +3,7 @@ import { IPagina } from "../assets/poema/poema";
 import PoemImage from "./Image";
 import Verso from "./Verso";
 import { createIntersectionObserver } from "../assets/utils/intersectionObserver";
-
-
+import Footnote from "./Footnote";
 
 export default function Pagina({ index, pagina } : { index: number, pagina: IPagina }) {
     
@@ -23,7 +22,7 @@ export default function Pagina({ index, pagina } : { index: number, pagina: IPag
     }, [ footnote ])
     
     return (
-        <article className="pb-24 text-neutral-900 font-antique font-light text-center leading-tight text-2xl">
+        <article className="pb-24 text-neutral-900 font-antique font-light text-center leading-tight text-2xl relative">
             <div className="pb-12">
                 <PoemImage src={ index }/>
             </div>
@@ -33,13 +32,7 @@ export default function Pagina({ index, pagina } : { index: number, pagina: IPag
                 )
             }
             {
-                !!footnote && (
-                    <div 
-                        data-show={ showFootnote }
-                        className="absolute right-0 left-0 py-4 px-12 bg-stone-400 opacity-0 data-[show='true']:opacity-100 transition-all">
-                        <sup>1</sup>. { pagina.footnote }
-                    </div>
-                )
+                !!footnote && <Footnote showFootnote={ showFootnote } text={ footnote }/>
             }
         </article>
     )

@@ -2,7 +2,7 @@ import PoemImage from "./Image";
 
 export default function Intro() {
     return (
-        <section className="text-right font-antique text-2xl max-w-2xl mx-auto text-neutral-700 min-h-screen px-4">
+        <section className="text-right font-antique text-2xl max-w-2xl mx-auto text-neutral-700 min-h-screen px-8">
             <div className="border-4 border-neutral-400 w-fit mb-8 mx-auto shadow-sm p-8 border-double relative rounded-lg">
                 <PoemImage src={ 'intro' }/>
             </div>
