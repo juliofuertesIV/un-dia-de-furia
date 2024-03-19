@@ -5,18 +5,12 @@
 @layer base {
     @font-face {
         font-family: RomanAntique;
-        font-weight: 400;
         src: local('RomanAntique'), url(/fonts/RomanAntique.ttf);
     }
     @font-face {
-      font-family: Karma;
-      font-weight: 300;
-      src: local('Karma'), url(/fonts/Karma-Light.ttf);
-    }
-    @font-face {
-      font-family: Karma;
-      font-weight: 400;
-      src: local('Karma'), url(/fonts/Karma-Regular.ttf);
+        font-family: RomanAntique;
+        font-style: italic;
+        src: local('RomanAntique'), url(/fonts/RomanAntiqueItalic.ttf), format('ttf');
     }
 }
 
