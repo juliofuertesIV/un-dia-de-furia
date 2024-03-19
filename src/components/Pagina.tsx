@@ -22,7 +22,7 @@ export default function Pagina({ index, pagina } : { index: number, pagina: IPag
     }, [ footnote ])
     
     return (
-        <article className="pb-24 w-full max-w-3xl mx-auto text-neutral-900 font-antique font-light text-center leading-tight text-2xl relative">
+        <article className="pb-24 w-full min-h-screen max-w-3xl mx-auto text-neutral-900 font-antique font-light text-center leading-tight text-2xl relative">
             <div className="pb-12">
                 <PoemImage src={ index }/>
             </div>
