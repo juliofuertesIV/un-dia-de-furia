@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { IPagina } from "../assets/poema/poema";
-import PoemImage from "./Image";
+import PoemImage from "./PoemImage";
 import Verso from "./Verso";
 import { createIntersectionObserver } from "../assets/utils/intersectionObserver";
 import Footnote from "./Footnote";

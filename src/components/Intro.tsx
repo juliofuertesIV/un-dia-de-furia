@@ -1,11 +1,9 @@
-import PoemImage from "./Image";
+import PoemImage from "./PoemImage";
 
 export default function Intro() {
     return (
         <section className="text-right font-antique text-2xl max-w-2xl mx-auto text-neutral-700 min-h-screen px-8">
-            <div className="border-4 border-neutral-400 w-fit mb-8 mx-auto shadow-sm p-8 border-double relative rounded-lg">
-                <PoemImage src={ 'intro' }/>
-            </div>
+            <PoemImage src={ 'intro' }/>
             <div className="pt-8">
                 <h4>No quiero a tu abuela</h4>
                 <h4>No quiero a mi novia</h4>

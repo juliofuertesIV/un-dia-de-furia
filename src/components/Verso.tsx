@@ -21,7 +21,7 @@ export default function Verso({ verso, index } : { verso: IVerso, index: number 
 
     return (
         <p 
-            className={ `data-[is-first='true']:uppercase data-[is-first='true']:text-xl py-1 ${ textAlign } data-[footnote="true"]:hover:underline cursor-default`}
+            className={ `data-[is-first='true']:uppercase data-[is-first='true']:text-xl py-1 ${ textAlign } data-[footnote="true"]:hover:underline cursor-defaultgit`}
             data-footnote={ verso.hasFootNote }
             data-is-first={ index == 0 }
         >
